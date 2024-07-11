@@ -28,6 +28,7 @@ SECRET_KEY =env("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://smart-care-86z0.onrender.com']
 
 
 # Application definition
